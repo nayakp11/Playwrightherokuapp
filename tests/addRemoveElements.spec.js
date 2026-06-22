@@ -50,7 +50,7 @@ test('multiple windows', async ({ page }) => {
     await newPage.close();
 });
 
-test.only('checkbox', async ({ page }) => {
+test('checkbox', async ({ page }) => {
   const availableExamplesPage = new availableExamples(page);
 
   // Navigate to Checkboxes page
